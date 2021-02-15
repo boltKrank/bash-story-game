@@ -26,6 +26,7 @@ adjectives=()
 nouns=()
 verbs=()
 adverbs=()
+places=()
 
 #names()
 printf "Let's start by writing some names. We need 5 names.\n"
@@ -38,25 +39,34 @@ names+=( $name2 )
 printf "What is name 3 ?\n"
 read -a name3
 names+=( $name3 )
-printf "What is name 4 ?\n"
-read  name4
-names+=( $name4 )
-printf "What is name 5 ?\n"
-read  name5
-names+=( $name5 )
+# printf "What is name 4 ?\n"
+# read  name4
+# names+=( $name4 )
+# printf "What is name 5 ?\n"
+# read  name5
+# names+=( $name5 )
 
 #names array test
-names=( $(shuf -e "${names[@]}") )
-for value in "${names[@]}"
-do
-     echo $value
-done
+# names=( $(shuf -e "${names[@]}") )
+# for value in "${names[@]}"
+# do
+#      echo $value
+# done
 
 #names array test
 #for value in "${names[@]}"
 #do
 #     echo $value
 #done
+
+#places()
+printf "Let's start by writing some places. We need 5 names.\n"
+printf "What is place 1 ?\n"
+read -a place1
+names+=( $place1 )
+printf "What is place 2 ?\n"
+read -a place2
+names+=( $place2 )
 
 #adjectives()
 printf "Let's start by writing some adjectives. We need 10 adjectives.\n"
@@ -69,27 +79,27 @@ adjectives+=( $adjective2 )
 printf "What is adjective 3 ?\n"
 read -a adjective3
 adjectives+=( $adjective3 )
-printf "What is adjective 4 ?\n"
-read  adjective4
-adjectives+=( $adjective4 )
-printf "What is adjective 5 ?\n"
-read  adjective5
-adjectives+=( $adjective5 )
-printf "What is adjective 6 ?\n"
-read -a adjective6
-adjectives+=( $adjective6 )
-printf "What is adjective 7 ?\n"
-read -a adjective7
-adjectives+=( $adjective7 )
-printf "What is adjective 8 ?\n"
-read -a adjective8
-adjectives+=( $adjective8 )
-printf "What is adjective 9 ?\n"
-read  adjective9
-adjectives+=( $adjective9 )
-printf "What is adjective 10 ?\n"
-read  adjective10
-adjectives+=( $adjective10 )
+# printf "What is adjective 4 ?\n"
+# read  adjective4
+# adjectives+=( $adjective4 )
+# printf "What is adjective 5 ?\n"
+# read  adjective5
+# adjectives+=( $adjective5 )
+# printf "What is adjective 6 ?\n"
+# read -a adjective6
+# adjectives+=( $adjective6 )
+# printf "What is adjective 7 ?\n"
+# read -a adjective7
+# adjectives+=( $adjective7 )
+# printf "What is adjective 8 ?\n"
+# read -a adjective8
+# adjectives+=( $adjective8 )
+# printf "What is adjective 9 ?\n"
+# read  adjective9
+# adjectives+=( $adjective9 )
+# printf "What is adjective 10 ?\n"
+# read  adjective10
+# adjectives+=( $adjective10 )
 
 
 #nouns()
@@ -109,21 +119,21 @@ nouns+=( $noun4 )
 printf "What is noun 5 ?\n"
 read  noun5
 nouns+=( $noun5 )
-printf "What is noun 6 ?\n"
-read -a noun6
-nouns+=( $noun6 )
-printf "What is noun 7 ?\n"
-read -a noun7
-nouns+=( $noun7 )
-printf "What is noun 8 ?\n"
-read -a noun8
-nouns+=( $noun8 )
-printf "What is noun 9 ?\n"
-read  noun9
-nouns+=( $noun9 )
-printf "What is noun 10 ?\n"
-read  noun10
-nouns+=( $noun10 )
+# printf "What is noun 6 ?\n"
+# read -a noun6
+# nouns+=( $noun6 )
+# printf "What is noun 7 ?\n"
+# read -a noun7
+# nouns+=( $noun7 )
+# printf "What is noun 8 ?\n"
+# read -a noun8
+# nouns+=( $noun8 )
+# printf "What is noun 9 ?\n"
+# read  noun9
+# nouns+=( $noun9 )
+# printf "What is noun 10 ?\n"
+# read  noun10
+# nouns+=( $noun10 )
 
 #verbs()
 printf "Let's start by writing some verbs. We need 10 verbs.\n"
@@ -139,24 +149,24 @@ verbs+=( $verb3 )
 printf "What is verb 4 ?\n"
 read  verb4
 verbs+=( $verb4 )
-printf "What is verb 5 ?\n"
-read  verb5
-verbs+=( $verb5 )
-printf "What is verb 6 ?\n"
-read -a verb6
-verbs+=( $verb6 )
-printf "What is verb 7 ?\n"
-read -a verb7
-verbs+=( $verb7 )
-printf "What is verb 8 ?\n"
-read -a verb8
-verbs+=( $verb8 )
-printf "What is verb 9 ?\n"
-read  verb9
-verbs+=( $verb9 )
-printf "What is verb 10 ?\n"
-read  verb10
-verbs+=( $verb10 )
+# printf "What is verb 5 ?\n"
+# read  verb5
+# verbs+=( $verb5 )
+# printf "What is verb 6 ?\n"
+# read -a verb6
+# verbs+=( $verb6 )
+# printf "What is verb 7 ?\n"
+# read -a verb7
+# verbs+=( $verb7 )
+# printf "What is verb 8 ?\n"
+# read -a verb8
+# verbs+=( $verb8 )
+# printf "What is verb 9 ?\n"
+# read  verb9
+# verbs+=( $verb9 )
+# printf "What is verb 10 ?\n"
+# read  verb10
+# verbs+=( $verb10 )
 
 
 #adverbs()
@@ -164,33 +174,33 @@ printf "Let's start by writing some adverbs. We need 10 adverbs.\n"
 printf "What is adverb 1 ?\n"
 read -a adverb1
 adverbs+=( $adverb1 )
-printf "What is adverb 2 ?\n"
-read -a adverb2
-adverbs+=( $adverb2 )
-printf "What is adverb 3 ?\n"
-read -a adverb3
-adverbs+=( $adverb3 )
-printf "What is adverb 4 ?\n"
-read  adverb4
-adverbs+=( $adverb4 )
-printf "What is adverb 5 ?\n"
-read  adverb5
-adverbs+=( $adverb5 )
-printf "What is adverb 6 ?\n"
-read -a adverb6
-adverbs+=( $adverb6 )
-printf "What is adverb 7 ?\n"
-read -a adverb7
-adverbs+=( $adverb7 )
-printf "What is adverb 8 ?\n"
-read -a adverb8
-adverbs+=( $adverb8 )
-printf "What is adverb 9 ?\n"
-read  adverb9
-adverbs+=( $adverb9 )
-printf "What is adverb 10 ?\n"
-read  adverb10
-adverbs+=( $noun10 )
+# printf "What is adverb 2 ?\n"
+# read -a adverb2
+# adverbs+=( $adverb2 )
+# printf "What is adverb 3 ?\n"
+# read -a adverb3
+# adverbs+=( $adverb3 )
+# printf "What is adverb 4 ?\n"
+# read  adverb4
+# adverbs+=( $adverb4 )
+# printf "What is adverb 5 ?\n"
+# read  adverb5
+# adverbs+=( $adverb5 )
+# printf "What is adverb 6 ?\n"
+# read -a adverb6
+# adverbs+=( $adverb6 )
+# printf "What is adverb 7 ?\n"
+# read -a adverb7
+# adverbs+=( $adverb7 )
+# printf "What is adverb 8 ?\n"
+# read -a adverb8
+# adverbs+=( $adverb8 )
+# printf "What is adverb 9 ?\n"
+# read  adverb9
+# adverbs+=( $adverb9 )
+# printf "What is adverb 10 ?\n"
+# read  adverb10
+# adverbs+=( $noun10 )
 
 #Shuffle Arrays:
 #names=( $(shuf -e "${names[@]}") )
@@ -205,6 +215,10 @@ sleep 3
 echo "Now we have all we need, the story is complete. Are you ready ?"
 sleep 2
 printf "\033c"
+
+# Adventure example.
+
+# INPUTS:  NAME = 3; NOUN = 5; ADJECTIVE = 3; VERB = 4; ADVERB = 1;
 
 # Once upon a time in a place called PLACE1, there lived a NOUN1 by the name of NAME1.
 
@@ -238,3 +252,35 @@ printf "\033c"
 
 # We'll find out next time in the adventures of NAME1 and NAME2 !!!!
 
+
+echo"Once upon a time in a place called $place1, there lived a $noun1 by the name of $name1.\n"
+
+echo"$name1 was best friends with $name2 although $name2 was more $adjective1 than $name1.\n"
+
+echo"One day, $name1 and $name2 decided to go to $place1 because they they could $verb1 on $noun2.\n"
+
+echo"They were going to go to $place2, but the only thing to do there is $verb2 ing on $noun3 s.\n"
+
+echo"And you have to do it very $adverb1.\n"
+
+echo"So as $name1 and $name2 $verb3 ed off to $place3...\n"
+
+echo"I am sorry, they were going to $place1. My mistake\n"
+
+echo"So as $name1 and $name2 were $verb3 ing off to $place1 the came across a $noun4.\n"
+
+echo"It was a very $adjective2 $noun4. In fact when $name1 saw the $adjective2 $noun4, \n"
+
+echo"They were reminded of $name3.\n"
+
+echo"$name1 then $verb4 ed the $noun4 that looked like $name3.\n"
+
+echo"$name2 was surprised how $adjective3 $name1 was when they $verb4 ed $name3.\n"
+
+echo"It probably was not the first time it happened.\n"
+
+echo"There was still a long way left to travel for $name1 and $name2 before they got to $place1.\n"
+
+echo"Will there be more $noun4 ? Or will there be a $noun5 ?\n"
+
+echo"We will find out next time in the adventures of $name1 and $name2 !!!!\n"
