@@ -3,6 +3,7 @@
 #TODO:
 #Randomise arrays
 #Write story
+#Add story type choice, change array elemants based on array
 
 #printf "\033c"
 #echo "This is the story game. We will make a funny story..."
@@ -192,9 +193,48 @@ read  adverb10
 adverbs+=( $noun10 )
 
 #Shuffle Arrays:
-names=( $(shuf -e "${names[@]}") )
-adjectives=( $(shuf -e "${adjectives[@]}") )
-nouns=( $(shuf -e "${nouns[@]}") )
-verbs=( $(shuf -e "${verbs[@]}") )
-adverbs=( $(shuf -e "${adverbs[@]}") )
+#names=( $(shuf -e "${names[@]}") )
+#adjectives=( $(shuf -e "${adjectives[@]}") )
+#nouns=( $(shuf -e "${nouns[@]}") )
+#verbs=( $(shuf -e "${verbs[@]}") )
+#adverbs=( $(shuf -e "${adverbs[@]}") )
+
+#Initial story (no arrays):
+printf "\033c"
+sleep 3
+echo "Now we have all we need, the story is complete. Are you ready ?"
+sleep 2
+printf "\033c"
+
+# Once upon a time in a place called PLACE1, there lived a NOUN1 by the name of NAME1.
+
+# NAME1 was best friends with NAME2 although NAME2 was more ADJECTIVE1 than NAME1.
+
+# One day, NAME1 and NAME2 decided to go to PLACE1 because they they could VERB1 on NOUN2s.
+
+# They were going to go to PLACE2, but the only thing to do there is VERB2ing on NOUN3s.
+
+# And you have to do it very ADVERB1.
+
+# So as NAME1 and NAME2 VERB3'd off to PLACE3...
+
+# I'm sorry, they were going to PLACE1. My mistake
+
+# So as NAME1 and NAME2 were VERB3ing off to PLACE1 the came across a NOUN4.
+
+# It was a very ADJECTIVE2 NOUN4. In fact when NAME1 saw the ADJECTIVE2 NOUN4, 
+
+# They were reminded of NAME3.
+
+# NAME1 then VERB4'd the NOUN4 that looked like NAME3.
+
+# NAME2 was surprised how ADJECTIVE3 NAME1 was when they VEB4'd NAME3.
+
+# It probably wasn't the first time it happened.
+
+# There was still a long way left to travel for NAME1 and NAME2 before they got to PLACE1.
+
+# Will there be more NOUN4 ? Or will there be a NOUN5 ?
+
+# We'll find out next time in the adventures of NAME1 and NAME2 !!!!
 
