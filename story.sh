@@ -45,6 +45,13 @@ read  name5
 names+=( $name5 )
 
 #names array test
+names=( $(shuf -e "${names[@]}") )
+for value in "${names[@]}"
+do
+     echo $value
+done
+
+#names array test
 #for value in "${names[@]}"
 #do
 #     echo $value
@@ -183,3 +190,11 @@ adverbs+=( $adverb9 )
 printf "What is adverb 10 ?\n"
 read  adverb10
 adverbs+=( $noun10 )
+
+#Shuffle Arrays:
+names=( $(shuf -e "${names[@]}") )
+adjectives=( $(shuf -e "${adjectives[@]}") )
+nouns=( $(shuf -e "${nouns[@]}") )
+verbs=( $(shuf -e "${verbs[@]}") )
+adverbs=( $(shuf -e "${adverbs[@]}") )
+
