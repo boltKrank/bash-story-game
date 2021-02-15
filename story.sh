@@ -253,34 +253,34 @@ printf "\033c"
 # We'll find out next time in the adventures of NAME1 and NAME2 !!!!
 
 
-echo"Once upon a time in a place called $place1, there lived a $noun1 by the name of $name1.\n"
+echo "Once upon a time in a place called $place1, there lived a $noun1 by the name of $name1."
 
-echo"$name1 was best friends with $name2 although $name2 was more $adjective1 than $name1.\n"
+echo "$name1 was best friends with $name2 although $name2 was more $adjective1 than $name1."
 
-echo"One day, $name1 and $name2 decided to go to $place1 because they they could $verb1 on $noun2.\n"
+echo "One day, $name1 and $name2 decided to go to $place1 because they they could $verb1 on $noun2."
 
-echo"They were going to go to $place2, but the only thing to do there is $verb2 ing on $noun3 s.\n"
+echo "They were going to go to $place2, but the only thing to do there is $verb2 ing on $noun3 s."
 
-echo"And you have to do it very $adverb1.\n"
+echo "And you have to do it very $adverb1."
 
-echo"So as $name1 and $name2 $verb3 ed off to $place3...\n"
+echo "So as $name1 and $name2 $verb3 ed off to $place3..."
 
-echo"I am sorry, they were going to $place1. My mistake\n"
+echo "I am sorry, they were going to $place1. My mistake"
 
-echo"So as $name1 and $name2 were $verb3 ing off to $place1 the came across a $noun4.\n"
+echo "So as $name1 and $name2 were $verb3 ing off to $place1 the came across a $noun4."
 
-echo"It was a very $adjective2 $noun4. In fact when $name1 saw the $adjective2 $noun4, \n"
+echo "It was a very $adjective2 $noun4. In fact when $name1 saw the $adjective2 $noun4, "
 
-echo"They were reminded of $name3.\n"
+echo "They were reminded of $name3."
 
-echo"$name1 then $verb4 ed the $noun4 that looked like $name3.\n"
+echo "$name1 then $verb4 ed the $noun4 that looked like $name3."
 
-echo"$name2 was surprised how $adjective3 $name1 was when they $verb4 ed $name3.\n"
+echo "$name2 was surprised how $adjective3 $name1 was when they $verb4 ed $name3."
 
-echo"It probably was not the first time it happened.\n"
+echo "It probably was not the first time it happened."
 
-echo"There was still a long way left to travel for $name1 and $name2 before they got to $place1.\n"
+echo "There was still a long way left to travel for $name1 and $name2 before they got to $place1."
 
-echo"Will there be more $noun4 ? Or will there be a $noun5 ?\n"
+echo "Will there be more $noun4 ? Or will there be a $noun5 ?"
 
-echo"We will find out next time in the adventures of $name1 and $name2 !!!!\n"
+echo "We will find out next time in the adventures of $name1 and $name2 !!!!"
